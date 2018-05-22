@@ -22,9 +22,9 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Spring-4.3.16.RELEASE" level="project" />
-    <orderEntry type="library" name="Spring MVC-4.3.16.RELEASE" level="project" />
-    <orderEntry type="module-library">
+    <orderEntry type="library" exported="" name="Spring-4.3.16.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="Spring MVC-4.3.16.RELEASE" level="project" />
+    <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
           <root url="jar://$MODULE_DIR$/lib/aopalliance-1.0.jar!/" />
@@ -50,16 +50,31 @@
           <root url="jar://$MODULE_DIR$/lib/spring-webmvc-portlet-4.3.16.RELEASE.jar!/" />
           <root url="jar://$MODULE_DIR$/lib/spring-websocket-4.3.16.RELEASE.jar!/" />
           <root url="jar://$MODULE_DIR$/lib/aspectj-1.9.1.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/aspectj-1.9.1.jar!/" />
         </CLASSES>
         <JAVADOC>
           <root url="jar://$MODULE_DIR$/lib/aspectj-1.9.1.jar!/doc/aspectj5rt-api" />
           <root url="jar://$MODULE_DIR$/lib/aspectj-1.9.1.jar!/doc/runtime-api" />
           <root url="jar://$MODULE_DIR$/lib/aspectj-1.9.1.jar!/doc/weaver-api" />
+          <root url="jar://$USER_HOME$/Downloads/aspectj-1.9.1.jar!/doc/aspectj5rt-api" />
+          <root url="jar://$USER_HOME$/Downloads/aspectj-1.9.1.jar!/doc/runtime-api" />
+          <root url="jar://$USER_HOME$/Downloads/aspectj-1.9.1.jar!/doc/weaver-api" />
         </JAVADOC>
         <SOURCES>
           <root url="jar://$MODULE_DIR$/lib/aspectj-1.9.1.jar!/doc/examples" />
           <root url="jar://$MODULE_DIR$/lib/aspectj-1.9.1.jar!/doc/examples/ltw" />
+          <root url="jar://$USER_HOME$/Downloads/aspectj-1.9.1.jar!/doc/examples" />
+          <root url="jar://$USER_HOME$/Downloads/aspectj-1.9.1.jar!/doc/examples/ltw" />
         </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/aspectjweaver-1.8.13.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
       </library>
     </orderEntry>
   </component>
