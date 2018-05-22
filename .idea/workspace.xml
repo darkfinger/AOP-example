@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c4bd842-ca27-4ec1-8988-5b9052c87fce" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/aspectjweaver-1.8.13.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dkkcorp/aopdemo/MainDemoApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dkkcorp/aopdemo/aspect/AspectBefore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Spring_MVC_4_3_16_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Spring_MVC_4_3_16_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dkkcorp/aopdemo/aspect/AspectUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AOP-example.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AOP-example.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dkkcorp/aopdemo/DemoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dkkcorp/aopdemo/DemoConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dkkcorp/aopdemo/dao/AccountDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dkkcorp/aopdemo/dao/AccountDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dkkcorp/aopdemo/aspect/AspectBefore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dkkcorp/aopdemo/aspect/AspectBefore.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,11 +29,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AspectBefore.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AspectBefore.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/dkkcorp/aopdemo/aspect/AspectBefore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+            <state relative-caret-position="238">
+              <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AspectUtil.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/dkkcorp/aopdemo/aspect/AspectUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,8 +68,8 @@
       <file leaf-file-name="MainDemoApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/dkkcorp/aopdemo/MainDemoApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+            <state relative-caret-position="298">
+              <caret line="24" column="28" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,6 +98,7 @@
         <option value="$PROJECT_DIR$/src/com/dkkcorp/aopdemo/dao/AccountDAO.java" />
         <option value="$PROJECT_DIR$/src/com/dkkcorp/aopdemo/MainDemoApp.java" />
         <option value="$PROJECT_DIR$/src/com/dkkcorp/aopdemo/aspect/AspectBefore.java" />
+        <option value="$PROJECT_DIR$/src/com/dkkcorp/aopdemo/aspect/AspectUtil.java" />
       </list>
     </option>
   </component>
@@ -271,12 +279,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1526993824822</updated>
-      <workItem from="1526993828618" duration="6492000" />
+      <workItem from="1526993828618" duration="7715000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6492000" />
+    <option name="totallyTimeSpent" value="7715000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -292,11 +300,11 @@
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4985755" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21652421" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
       <window_info id="Web" side_tool="true" />
       <window_info anchor="right" id="Database" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -352,20 +360,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dkkcorp/aopdemo/MainDemoApp.java">
+    <entry file="file://$PROJECT_DIR$/src/com/dkkcorp/aopdemo/aspect/AspectBefore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+        <state relative-caret-position="238">
+          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dkkcorp/aopdemo/aspect/AspectBefore.java">
+    <entry file="file://$PROJECT_DIR$/src/com/dkkcorp/aopdemo/MainDemoApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        <state relative-caret-position="298">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dkkcorp/aopdemo/aspect/AspectUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -378,7 +396,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited />
+          <last-edited>AOP-example:war exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -451,7 +469,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>Spring MVC-4.3.16.RELEASE</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
