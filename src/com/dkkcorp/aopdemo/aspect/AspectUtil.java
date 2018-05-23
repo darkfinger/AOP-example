@@ -20,4 +20,8 @@ public class AspectUtil {
     @Pointcut("execution(* set*())")
     public void setter() {
     }
+
+    @Pointcut("execution(* find*())")
+    public void pointThree() {
+    }
 }
