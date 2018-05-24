@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c4bd842-ca27-4ec1-8988-5b9052c87fce" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/dkkcorp/aopdemo/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dkkcorp/aopdemo/aspect/AspectAfter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dkkcorp/aopdemo/aspect/AspectAfterReturning.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dkkcorp/aopdemo/aspect/AspectAfterThrow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dkkcorp/aopdemo/aspect/AspectAround.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AOP-example/com/dkkcorp/aopdemo/MainDemoApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AOP-example/com/dkkcorp/aopdemo/MainDemoApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AOP-example/com/dkkcorp/aopdemo/aspect/AspectBefore.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AOP-example/com/dkkcorp/aopdemo/aspect/AspectBefore.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AOP-example/com/dkkcorp/aopdemo/dao/AccountDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AOP-example/com/dkkcorp/aopdemo/dao/AccountDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dkkcorp/aopdemo/MainDemoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dkkcorp/aopdemo/MainDemoApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dkkcorp/aopdemo/aspect/AspectBefore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dkkcorp/aopdemo/aspect/AspectBefore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dkkcorp/aopdemo/aspect/AspectUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dkkcorp/aopdemo/aspect/AspectUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dkkcorp/aopdemo/dao/AccountDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dkkcorp/aopdemo/dao/AccountDAO.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,8 +50,8 @@
       <file leaf-file-name="AspectBefore.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/dkkcorp/aopdemo/aspect/AspectBefore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+            <state relative-caret-position="295">
+              <caret line="25" column="87" selection-start-line="25" selection-start-column="87" selection-end-line="25" selection-end-column="87" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,11 +59,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="AspectAround.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/dkkcorp/aopdemo/aspect/AspectAround.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="AspectAfterReturning.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/dkkcorp/aopdemo/aspect/AspectAfterReturning.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+            <state relative-caret-position="272">
+              <caret line="24" column="83" selection-start-line="24" selection-start-column="83" selection-end-line="24" selection-end-column="83" />
             </state>
           </provider>
         </entry>
@@ -82,16 +81,16 @@
         <entry file="file://$PROJECT_DIR$/src/com/dkkcorp/aopdemo/aspect/AspectAfterThrow.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="22" column="90" selection-start-line="22" selection-start-column="90" selection-end-line="22" selection-end-column="90" />
+              <caret line="22" column="77" selection-start-line="22" selection-start-column="77" selection-end-line="22" selection-end-column="77" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AspectAfter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AspectAfter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/dkkcorp/aopdemo/aspect/AspectAfter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="19" column="85" selection-start-line="19" selection-start-column="85" selection-end-line="19" selection-end-column="85" />
+              <caret line="19" column="71" selection-start-line="19" selection-start-column="71" selection-end-line="19" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -153,11 +152,12 @@
         <option value="$PROJECT_DIR$/src/com/dkkcorp/aopdemo/dao/AccountDAO.java" />
         <option value="$PROJECT_DIR$/src/com/dkkcorp/aopdemo/aspect/AspectUtil.java" />
         <option value="$PROJECT_DIR$/src/com/dkkcorp/aopdemo/Account.java" />
-        <option value="$PROJECT_DIR$/src/com/dkkcorp/aopdemo/aspect/AspectBefore.java" />
         <option value="$PROJECT_DIR$/src/com/dkkcorp/aopdemo/MainDemoApp.java" />
+        <option value="$PROJECT_DIR$/src/com/dkkcorp/aopdemo/aspect/AspectAfter.java" />
         <option value="$PROJECT_DIR$/src/com/dkkcorp/aopdemo/aspect/AspectAfterReturning.java" />
         <option value="$PROJECT_DIR$/src/com/dkkcorp/aopdemo/aspect/AspectAfterThrow.java" />
-        <option value="$PROJECT_DIR$/src/com/dkkcorp/aopdemo/aspect/AspectAfter.java" />
+        <option value="$PROJECT_DIR$/src/com/dkkcorp/aopdemo/aspect/AspectBefore.java" />
+        <option value="$PROJECT_DIR$/src/com/dkkcorp/aopdemo/aspect/AspectAround.java" />
       </list>
     </option>
   </component>
@@ -190,27 +190,7 @@
             <path>
               <item name="AOP-example" type="b2602c69:ProjectViewProjectNode" />
               <item name="AOP-example" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AOP-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AOP-example" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="aopdemo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AOP-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AOP-example" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="aopdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="aspect" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AOP-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AOP-example" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="aopdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -336,7 +316,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1526993824822</updated>
-      <workItem from="1526993828618" duration="13127000" />
+      <workItem from="1526993828618" duration="15307000" />
     </task>
     <task id="LOCAL-00001" summary="refactor">
       <created>1527026755334</created>
@@ -345,15 +325,21 @@
       <option name="project" value="LOCAL" />
       <updated>1527026755334</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="after advice">
+      <created>1527112676289</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1527112676289</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13127000" />
+    <option name="totallyTimeSpent" value="15307000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -365,7 +351,7 @@
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21652421" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2735043" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Designer" />
@@ -393,7 +379,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
+    <MESSAGE value="after advice" />
+    <option name="LAST_COMMIT_MESSAGE" value="after advice" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -471,34 +458,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dkkcorp/aopdemo/aspect/AspectAfterReturning.java">
+    <entry file="file://$PROJECT_DIR$/src/com/dkkcorp/aopdemo/aspect/AspectAfter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        <state relative-caret-position="238">
+          <caret line="19" column="71" selection-start-line="19" selection-start-column="71" selection-end-line="19" selection-end-column="71" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dkkcorp/aopdemo/aspect/AspectBefore.java">
+    <entry file="file://$PROJECT_DIR$/src/com/dkkcorp/aopdemo/aspect/AspectAfterReturning.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="272">
+          <caret line="24" column="83" selection-start-line="24" selection-start-column="83" selection-end-line="24" selection-end-column="83" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dkkcorp/aopdemo/aspect/AspectAfterThrow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="22" column="90" selection-start-line="22" selection-start-column="90" selection-end-line="22" selection-end-column="90" />
+          <caret line="22" column="77" selection-start-line="22" selection-start-column="77" selection-end-line="22" selection-end-column="77" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dkkcorp/aopdemo/aspect/AspectAfter.java">
+    <entry file="file://$PROJECT_DIR$/src/com/dkkcorp/aopdemo/aspect/AspectBefore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="85" selection-start-line="19" selection-start-column="85" selection-end-line="19" selection-end-column="85" />
+        <state relative-caret-position="295">
+          <caret line="25" column="87" selection-start-line="25" selection-start-column="87" selection-end-line="25" selection-end-column="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dkkcorp/aopdemo/aspect/AspectAround.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
         </state>
       </provider>
     </entry>
