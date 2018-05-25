@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c4bd842-ca27-4ec1-8988-5b9052c87fce" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/dkkcorp/aopdemo/aspect/AspectAround.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -62,8 +61,8 @@
       <file leaf-file-name="AspectAround.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/dkkcorp/aopdemo/aspect/AspectAround.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+            <state relative-caret-position="374">
+              <caret line="28" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -316,7 +315,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1526993824822</updated>
-      <workItem from="1526993828618" duration="15307000" />
+      <workItem from="1526993828618" duration="15328000" />
     </task>
     <task id="LOCAL-00001" summary="refactor">
       <created>1527026755334</created>
@@ -332,11 +331,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527112676289</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="complete">
+      <created>1527179212561</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1527179212561</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15307000" />
+    <option name="totallyTimeSpent" value="15328000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -351,7 +357,7 @@
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2735043" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2735043" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Designer" />
@@ -380,7 +386,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="refactor" />
     <MESSAGE value="after advice" />
-    <option name="LAST_COMMIT_MESSAGE" value="after advice" />
+    <MESSAGE value="complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -491,8 +498,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dkkcorp/aopdemo/aspect/AspectAround.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+        <state relative-caret-position="374">
+          <caret line="28" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="28" />
         </state>
       </provider>
     </entry>
